@@ -1,0 +1,175 @@
+*{
+    margin: 0;padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input, button{
+    display: block;
+}
+
+/* navbar */
+nav{
+    margin: auto;
+    padding: 2.5vh 4vw;
+    background-color: white;
+    box-shadow: gray 1px 1px 6px;
+}
+
+h1{
+    text-transform: uppercase;
+    margin: auto 1vw;
+}
+h1 a{
+    text-decoration: none;
+    color: rgb(19, 19, 61);
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+
+h1 a span{
+    color: rgb(0, 132, 255);
+}
+
+nav li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: blue;
+    text-decoration: none;
+    margin: 23px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    margin: 23px;
+}
+
+/* form */
+
+input, label, select{
+    margin: 1vh 0;
+    display: block;
+}
+#link-address {
+    height: 40px;
+	width: 100%;
+	margin: auto;
+	padding: 2%;
+    font-size: .9em;
+	box-sizing: border-box;
+    border: solid 1px rgb(218, 218, 218); 
+    border-radius: 3px;
+}
+#resolution{
+    padding-left: 1vw;
+    width: 100%;
+    height: 40px;
+    font-size: .9em;
+    letter-spacing: 1px;
+    background: none;
+    border: solid 1px rgb(218, 218, 218) ; 
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+option{
+    background: white;
+}
+#link-address:active, #resolution:active
+{
+    border-color: rgb(0, 132, 255);
+}
+
+
+button {
+    margin: 12px auto;
+	width: 100%;
+	height: 85px;
+	font-size: 1.7em;
+    font-weight: bold;
+	font-variant: small-caps;
+    letter-spacing: -1px;
+    border-radius: 6px;
+    color: white;
+    background: blue;
+}
+button:hover{
+    background-color: rgb(6, 6, 240);
+    transition-duration: 100ms;
+}
+
+
+/* main */
+main{
+    width: 62vw;
+    margin: 5vh auto;
+    padding: 3vh 0.5vw;
+    background: white;
+    border-radius: 1%;
+    box-shadow: 0px 14px 18px 0px rgb(224, 223, 223);
+}
+div{
+    margin: 10px;
+    padding: 5px;
+}
+main h1{
+    text-transform: none;
+}
+h2{
+    text-transform: capitalize;
+    margin: 3vh auto 1vh;
+    padding: 3px auto;
+}
+
+main ul, main ol{
+    margin: 2%;
+    padding: 1%;
+}
+
+main p, main ul, main ol {
+    color: darkslategray;
+    line-height: 160%;
+    
+}
+
+main ol{
+    margin: 0% 1vw;
+}
+
+/* footer */
+footer {
+	margin-top: 15vh;
+	padding: 10px 58px;
+	background: rgb(228, 228, 228);
+}
+footer h5{
+    margin: 0;
+    font-size: 1em;
+    font-weight: normal;
+    padding: 5px;
+}
+footer ul{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+footer li{
+    margin:auto 12px;
+    list-style-type: disc;
+}
+footer ul li a{
+    text-decoration: none;
+    color: darkslategrey;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+}

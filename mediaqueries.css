@@ -1,0 +1,6 @@
+@media only screen and (max-width:650px){nav.flex{flex-direction: column;}nav ul{margin-top: 5vh;}main{width: 92%;}footer{padding: 5vw;}}
+@media only screen and (max-width:350px){
+    nav ul li a{
+        margin: 23px 5px;
+    }
+}
